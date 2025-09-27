@@ -9,7 +9,7 @@ Local Passport Authentication Service sử dụng Passport.js Local Strategy đ�
 ## Kết quả Test API
 
 ### 1. Test đăng ký user (POST /auth/register)
-![Test API đăng ký user với Postman](image-1.png)
+![Test API đăng ký user với Postman](image.png)
 
 **Mô tả**: 
 - **Request**: POST `http://localhost:3000/auth/register`
@@ -18,7 +18,7 @@ Local Passport Authentication Service sử dụng Passport.js Local Strategy đ�
 - **Chức năng**: API tạo tài khoản mới và lưu vào MongoDB với password được hash
 
 ### 2. Dữ liệu user trong MongoDB
-![MongoDB Compass hiển thị user đã được lưu](image.png)
+![MongoDB Compass hiển thị user đã được lưu](image-3.png)
 
 **Mô tả**: 
 - **User ID**: ObjectId được tạo tự động `68d762a856333513f6cd91fa`
@@ -29,7 +29,7 @@ Local Passport Authentication Service sử dụng Passport.js Local Strategy đ�
 - **Chức năng**: Password được mã hóa an toàn trước khi lưu vào database
 
 ### 3. Test đăng nhập (POST /auth/login)
-![Test API đăng nhập với Postman](Screenshot 2025-09-27 110916.png)
+![Test API đăng nhập với Postman](image-1.png)
 
 **Mô tả**:
 - **Request**: POST `http://localhost:3000/auth/login` 
